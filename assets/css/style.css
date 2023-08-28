@@ -60,7 +60,102 @@ header nav .login-button #login-icon {
 header nav .login-button #login-icon img {
   max-width: 15px;
 }
+header nav .mobile-menu-icon {
+  display: none;
+}
+header .mobile-menu {
+  display: none;
+}
 
+@media screen and (max-width: 1330px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #847f9f;
+  }
+  .login-button {
+    display: none !important;
+  }
+  .mobile-menu-icon {
+    display: block !important;
+  }
+  .mobile-menu-icon button {
+    background-color: #5510a1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+    display: block;
+    padding: 1rem;
+  }
+  .mobile-menu .login-button {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 1.3rem;
+  }
+  .mobile-menu .login-button img {
+    display: none;
+  }
+  .mobile-menu .login-button #login-icon {
+    color: #572c95;
+  }
+  .mobile-menu .login-button a {
+    color: #2c69f7;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .mobile-menu .login-button button {
+    width: 100%;
+  }
+  .mobile-menu {
+    position: absolute;
+    border-radius: 10px;
+    top: 13%;
+    left: 78%;
+    min-width: 10%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .mobile-menu ul {
+    padding: 0;
+  }
+  .mobile-menu.open {
+    display: block;
+  }
+  .mobile-menu .login-button a {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mobile-menu {
+    top: 13%;
+    left: 73%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile-menu {
+    top: 13%;
+    left: 64%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .mobile-menu {
+    top: 13%;
+    left: 60%;
+  }
+}
 main {
   display: flex;
   height: 800px;
@@ -244,7 +339,7 @@ main .main-img img {
   justify-content: flex-end;
   height: 1000px;
   margin-top: 230px;
-  background-image: url(/assets/img/img-fundo-4-teste-programador.png);
+  background-image: url(assets/img/img-fundo-4-teste-programador.png);
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -341,7 +436,7 @@ main .main-img img {
   align-items: center;
   padding: 1.5rem 10rem;
   justify-content: flex-end;
-  background-image: url(/assets/img/fundo-footer-teste-programador.png.jpg);
+  background-image: url(assets/img/fundo-footer-teste-programador.png.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }

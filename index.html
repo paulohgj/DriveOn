@@ -12,16 +12,16 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-bar">
             <div class="logo-container">
                 <div class="logo">
                     <img src="assets/img/logo-teste-programador.png" alt="Imagem logo">
                 </div>
                 <ul>
-                    <li><a href="#">Drivers</a></li>
-                    <li><a href="#">Passengers</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="nav-item"><a href="#">Drivers</a></li>
+                    <li class="nav-item"><a href="#">Passengers</a></li>
+                    <li class="nav-item"><a href="#">About Us</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
                 </ul>
             </div>
             <div class="login-button">
@@ -29,7 +29,23 @@
                         alt="Icone login">Log in</a>
                 <a href="#">Sign Up</a>
             </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg"></button>
+            </div>
         </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#">Drivers</a></li>
+                <li class="nav-item"><a href="#">Passengers</a></li>
+                <li class="nav-item"><a href="#">About Us</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+            <div class="login-button">
+                <a href="#" id="login-icon"><img src="assets/img/icone-login-teste-programador.png"
+                        alt="Icone login">Log in</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
     </header>
     <main>
         <section class="main-content">
@@ -134,7 +150,7 @@
                     <div class="store-info">
                         <a href="#">
                             <div class="store-icon">
-                                <img src="assets/img/logo-pay-store-2048.png" alt="Play Store Icon">
+                                <img src="assets/img/logo-play-store-2048.png" alt="Play Store Icon">
                             </div>
                             <div class="store-text">
                                 <p id="text-label">GET IT ON</p>
