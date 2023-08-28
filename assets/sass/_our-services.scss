@@ -1,0 +1,61 @@
+.our-services {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 10rem;
+
+    .section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .get-started-section {
+            img {
+                max-width: 160px;
+            }
+
+            h2 {
+                margin-top: 40px;
+                font-size: 40px;
+                color: #4e0d8d;
+            }
+        }
+    }
+}
+
+.solution-icons {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+    gap: 100px;
+
+    .process-step {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        h3 {
+            margin-bottom: 25px;
+            color: #4e0d8d;
+        }
+
+        p {
+            color: #89859c;
+        }
+
+        .account-info {
+            display: flex;
+            flex-direction: column;
+            max-width: 210px;
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    align-items: center;
+    padding: 1.5rem 10rem;
+    justify-content: flex-end;
+
+    background-image: url(/assets/img/fundo-footer-teste-programador.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        width: 70rem;
+
+        .footer-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 200px;
+
+            .logo-section {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .logo-content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                .help-link {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    gap: 10px;
+                }
+            }
+
+            .footer-menu {
+                display: flex;
+                width: 500px;
+                justify-content: space-between;
+
+                .about-section {
+                    //About
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+
+                    h3 {
+                        padding-bottom: 40px;
+                    }
+
+                    .about-links {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 20px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+
+                .product-section {
+                    //Our Product
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+
+                    h3 {
+                        padding-bottom: 40px;
+                    }
+
+                    .product-links {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 20px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #b184d7;
+            padding-top: 30px;
+
+            p {
+                color: white;
+            }
+
+            .social-icons {
+                display: flex;
+                gap: 25px;
+
+                img {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

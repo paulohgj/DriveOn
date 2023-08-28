@@ -1,0 +1,41 @@
+.registration-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 70rem;
+    }
+
+    .registration-step {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .registration-content {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+
+            h3 {
+                font-size: 40px;
+                color: #550db9;
+            }
+
+            img {
+                max-width: 100%;
+                width: 45px;
+                height: auto;
+            }
+        }
+
+        .divider {
+            img {
+                width: 135px;
+            }
+        }
+    }
+}

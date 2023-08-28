@@ -1,0 +1,46 @@
+.about-platform-section {
+    display: flex;
+    height: 1200px;
+    align-items: center;
+
+    .about-platform-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        max-width: 35rem;
+        width: 50%;
+
+        img {
+            max-width: 160px;
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: #8986a5;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            text-decoration: none;
+            color: #6098f5;
+            width: 100px;
+
+            p {
+                color: #6098f5;
+            }
+
+        }
+    }
+
+    .about-platform-image {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

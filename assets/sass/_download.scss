@@ -1,0 +1,73 @@
+.download-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 1000px;
+    margin-top: 230px;
+    background-image: url(/assets/img/img-fundo-4-teste-programador.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    .download-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin: auto;
+        width: 100%;
+        max-width: 70rem;
+    }
+
+    .download-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-size: 30px;
+
+        .download-text {
+            width: 650px;
+        }
+
+        h3 {
+            color: #4e108f;
+        }
+    }
+}
+
+.download-links {
+    display: flex;
+    gap: 10px;
+
+    .store-info {
+        border-radius: 6px;
+        background-color: black;
+
+        .store-text {
+            p {
+                font-size: 20px;
+            }
+
+            #text-label {
+                font-size: 10px;
+            }
+        }
+
+        a {
+            display: flex;
+            padding: 10px 25px 10px 25px;
+            gap: 13px;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+
+            .store-icon {
+                display: flex;
+
+                img {
+                    width: 100%;
+                    max-width: 25px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
