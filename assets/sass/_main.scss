@@ -44,3 +44,9 @@ main {
     }
 
 }
+
+@media screen and (max-width: 1330px) {
+    .main-img {
+        display: none;
+    }
+}

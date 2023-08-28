@@ -1,9 +1,8 @@
 .our-services {
     display: flex;
-    height: 700px;
+    height: 1000px;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 10rem;
 
     .section-content {
         display: flex;
@@ -57,5 +56,18 @@
             flex-direction: column;
             max-width: 210px;
         }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .solution-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .process-step {
+        width: calc(50% - 50px);
+        max-width: 400px;
     }
 }

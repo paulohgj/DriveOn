@@ -55,3 +55,14 @@
 
     }
 }
+
+@media screen and (max-width: 1330px) {
+    .safety-image {
+        display: none;
+    }
+
+    .safety-section {
+        height: 500px;
+        justify-content: center;
+    }
+}
