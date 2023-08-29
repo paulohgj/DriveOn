@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: flex-end;
     height: 1000px;
-    margin-top: 230px;
     overflow: hidden;
 
     .background-image {
@@ -86,9 +85,6 @@
 }
 
 @media screen and (max-width: 1330px) {
-    .download-section .download-wrapper {
-        justify-content: center;
-    }
 
     .download-section {
         height: 700px;
@@ -97,14 +93,50 @@
 }
 
 @media screen and (max-width: 720px) {
+    .footer .footer-container .footer-section .logo-section {
+        align-items: center;
+
+        .logo-content {
+            align-items: center;
+        }
+    }
+
+    .footer .footer-container .footer-section .about-section {
+        align-items: center;
+
+        .about-links {
+            align-items: center !important;
+        }
+    }
+
+    .footer .footer-container .footer-section .product-section {
+        align-items: center;
+
+        .product-links {
+            align-items: center !important;
+        }
+    }
+
     .download-section .download-content h3 {
         font-size: 30px;
     }
+
     .download-section .download-content {
         padding: 0 1rem;
         align-items: center;
+
         strong {
             font-size: 16px;
         }
+    }
+
+    .download-section {
+        height: 650px !important;
+    }
+
+    .download-section .download-wrapper {
+        justify-content: center;
+        margin-top: auto !important;
+        margin-bottom: 0 !important;
     }
 }
