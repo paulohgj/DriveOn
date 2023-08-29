@@ -3,7 +3,7 @@
     position: relative;
     align-items: center;
     justify-content: flex-end;
-    height: 1000px;
+    height: 700px;
     overflow: hidden;
 
     .background-image {
@@ -84,6 +84,10 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    
+}
+
 @media screen and (max-width: 1330px) {
 
     .download-section {
@@ -124,6 +128,7 @@
     .download-section .download-content {
         padding: 0 1rem;
         align-items: center;
+        text-align: center;
 
         strong {
             font-size: 16px;

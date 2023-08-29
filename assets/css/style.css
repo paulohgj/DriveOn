@@ -374,7 +374,7 @@ main .main-img img {
 }
 .about-platform-section .about-platform-image img {
   width: 100%;
-  max-width: 800px;
+  max-width: 500px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -460,7 +460,7 @@ main .main-img img {
   position: relative;
   align-items: center;
   justify-content: flex-end;
-  height: 1000px;
+  height: 700px;
   overflow: hidden;
 }
 .download-section .background-image {
@@ -558,6 +558,7 @@ main .main-img img {
   .download-section .download-content {
     padding: 0 1rem;
     align-items: center;
+    text-align: center;
   }
   .download-section .download-content strong {
     font-size: 16px;
