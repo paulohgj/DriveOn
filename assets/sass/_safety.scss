@@ -1,6 +1,5 @@
 .safety-section {
     display: flex;
-    height: 650px;
     align-items: center;
     justify-content: flex-end;
 
@@ -46,23 +45,41 @@
     }
 
     .safety-image {
+        display: flex;
+        justify-content: flex-end;
         width: 50%;
 
         img {
             width: 100%;
-            height: auto;
+            max-width: 800px;
         }
 
     }
 }
 
-@media screen and (max-width: 1330px) {
-    .safety-image {
+@media screen and (max-width: 1024px) {
+    .safety-image img {
         display: none;
     }
 
     .safety-section {
-        height: 500px;
-        justify-content: center;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .safety-section .safety-content {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .download-section {
+        height: 450px !important;
+    }
+
+    .download-section .download-wrapper {
+        margin-top: auto !important;
+        margin-bottom: 0 !important;
     }
 }

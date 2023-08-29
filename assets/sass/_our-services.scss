@@ -1,6 +1,5 @@
 .our-services {
     display: flex;
-    height: 1000px;
     align-items: center;
     justify-content: center;
 
@@ -39,7 +38,6 @@
         img {
             width: 100%;
             max-width: 200px;
-            height: auto;
         }
 
         h3 {
@@ -60,6 +58,10 @@
 }
 
 @media screen and (max-width: 1330px) {
+    .our-services .section-content .get-started-section h2 {
+        font-size: 30px;
+    }
+
     .solution-icons {
         flex-wrap: wrap;
         justify-content: center;

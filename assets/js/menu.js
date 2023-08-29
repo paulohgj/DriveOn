@@ -14,4 +14,6 @@ document.addEventListener('click', function (event) {
     if (!menuButton.contains(event.target) && !menuMobile.contains(event.target)) {
         menuMobile.classList.remove('open');
     }
+
 });
+

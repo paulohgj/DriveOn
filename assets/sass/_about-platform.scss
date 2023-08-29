@@ -1,6 +1,5 @@
 .about-platform-section {
     display: flex;
-    height: 1200px;
     align-items: center;
 
     .about-platform-content {
@@ -40,19 +39,25 @@
 
         img {
             width: 100%;
-            height: auto;
+            max-width: 800px;
         }
     }
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1024px) {
     .about-platform-image {
         display: none;
     }
 
     .about-platform-section {
         margin-top: 100px;
-        height: 500px;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .about-platform-section .about-platform-content {
+        width: 100%;
+        padding: 0 1rem;
     }
 }
