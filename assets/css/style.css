@@ -132,7 +132,7 @@ header .mobile-menu {
   .mobile-menu {
     position: absolute;
     border-radius: 10px;
-    top: 13%;
+    top: 10%;
     left: 82.1%;
     min-width: 10%;
     background-color: white;
@@ -151,25 +151,25 @@ header .mobile-menu {
 }
 @media screen and (max-width: 1265px) {
   .mobile-menu {
-    top: 13%;
+    top: 10%;
     left: 81%;
   }
 }
 @media screen and (max-width: 1195px) {
   .mobile-menu {
-    top: 13%;
+    top: 10%;
     left: 80%;
   }
 }
 @media screen and (max-width: 1090px) {
   .mobile-menu {
-    top: 13%;
+    top: 10%;
     left: 77.5%;
   }
 }
 @media screen and (max-width: 1024px) {
   .mobile-menu {
-    top: 13%;
+    top: 10%;
     left: 76%;
   }
 }
@@ -180,25 +180,25 @@ header .mobile-menu {
 }
 @media screen and (max-width: 768px) {
   .mobile-menu {
-    top: 13%;
-    left: 68%;
+    top: 10%;
+    left: 73%;
   }
 }
 @media screen and (max-width: 425px) {
   .mobile-menu {
-    top: 13%;
-    left: 41%;
+    top: 10%;
+    left: 53%;
   }
 }
 @media screen and (max-width: 375px) {
   .mobile-menu {
-    top: 13%;
-    left: 40%;
+    top: 10%;
+    left: 48%;
   }
 }
 @media screen and (max-width: 320px) {
   .mobile-menu {
-    top: 13%;
+    top: 10%;
     left: 38%;
   }
 }
